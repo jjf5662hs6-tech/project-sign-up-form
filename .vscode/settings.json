@@ -1,0 +1,20 @@
+{
+    // enables automatic closing tag insertion for HTML/JSX/etc.
+    "html.autoClosingTags": true,
+    // allow Emmet expansions with Tab (e.g., div>ul>li*3)
+    "emmet.triggerExpansionOnTab": true,
+    // automatically add matching quotes and brackets
+    "editor.autoClosingQuotes": "always",
+    "editor.autoClosingBrackets": "languageDefined"
+
+    // quick suggestions so tag names are highlighted as you type
+    ,"editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
+    },
+    // allow Enter to accept a completion (in addition to Tab)
+    "editor.acceptSuggestionOnEnter": "on",
+    // always show Emmet abbreviations in the suggestion list
+    "emmet.showExpandedAbbreviation": "always"
+}
